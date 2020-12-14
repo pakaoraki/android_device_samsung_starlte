@@ -35,8 +35,11 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-BUILD_FINGERPRINT := samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXU7DTAA:user/release-keys
+BUILD_FINGERPRINT := samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXUCFTK1:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=starltexx \
-        PRIVATE_BUILD_DESC="starltexx-user 10 QP1A.190711.020 G960FXXU7DTAA release-keys"
+    PRODUCT_NAME=starltexx \
+    PRIVATE_BUILD_DESC="starltexx-user 10 QP1A.190711.020 G960FXXUCFTK1 release-keys"
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.PDA=G960FXXUCFTK1
